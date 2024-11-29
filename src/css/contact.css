@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+}
+.header{
+    width: 65%;
+    margin: 0 auto;
+}
+header p{
+    text-align: center;
+}
+header h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+header span{
+    color: rgb(232, 120, 0);
+}
+header nav{
+    padding-bottom: 2rem;
+}
+header nav a{
+    color: white;
+    padding: 0.5rem 1rem;
+    background: rgba(195, 248, 138, 0.715);
+    border-radius: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+nav a:hover{
+    background:rgb(232, 120, 0);
+}
+header nav a:nth-child(3){
+    background: rgb(232, 120, 0);
+}
+
+
+
+.main-container{
+    width: 65%;
+    margin:  0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+}
+.main-container h2{
+    margin: 1.5rem 0;
+    color: rgba(85, 163, 3, 0.715);
+}
+.main-container input{
+    width: 80%;
+    outline: none;
+    padding: 1px 0 1px 5px;
+}
+.main-container textarea{
+    width: 80%;
+    outline: none;
+}
+.message{
+    height: 10rem;
+}
+.submit{
+    width: 10px;
+}
+.main-container div div p{
+    margin-bottom: 0.3rem;
+}
+.main-container input{
+    margin-bottom: 0.5rem;
+}
+input[type="submit"] {
+    margin-top: 1rem;
+    width: 20%;
+    cursor: pointer;
+}
+aside ul li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+.last-one div{
+    margin-bottom: 1rem;
+}
+.last-one div h4{
+    margin-bottom: 9px;
+}
+
+
+
+
+
+footer{
+    background: rgb(40, 39, 39);
+    color: white;
+    margin-top: 1rem;
+}
+.footer{
+    width: 65%;
+    margin: 0 auto;
+}
+.footer-partitions{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.footer img{
+    width: 4.5rem;
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 1rem 0;
+    width: 100vw;
+    background: black;
+    border-top: rgb(81, 79, 79) solid 0.1px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.footer-partitions h2{
+    margin-bottom: 1rem;
+}
+.images img{
+    margin: 0 0.5rem 0.5rem 0;
+    height: 5rem;
+}
+.contact-us img{
+    float: left;
+    margin: 0 0.9rem 0.2rem 0;
+}
+.contact-info{
+    margin-top: 1rem;
+}
+.about-us span{
+    font-weight:bolder;
+}
+img{
+    width: 100%;
+}

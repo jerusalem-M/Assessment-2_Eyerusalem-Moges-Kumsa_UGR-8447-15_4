@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+}
+.header{
+    width: 65%;
+    margin: 0 auto;
+}
+header p{
+    text-align: center;
+}
+header h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+header span{
+    color: rgb(232, 120, 0);
+}
+header nav{
+    padding-bottom: 2rem;
+}
+header nav a{
+    color: white;
+    padding: 0.5rem 1rem;
+    background: rgba(195, 248, 138, 0.715);
+    border-radius: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+nav a:hover{
+    background:rgb(232, 120, 0);
+}
+header nav a:first-child{
+    background: rgb(232, 120, 0);
+}
+ 
+
+
+.main-container{
+    width: 65%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.main-container h2{
+    color: rgba(85, 163, 3, 0.715);
+    font-weight: 800;
+    margin: 2rem 0 1rem;
+}
+.main-container img{
+    margin: 1rem 0;
+    width: 100%;
+}
+aside ul li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+.last-one div{
+    margin-bottom: 1rem;
+}
+.last-one div h4{
+    margin-bottom: 9px;
+}
+.red{
+    color: rgb(232, 120, 0);
+    text-decoration: underline;
+}
+.green{
+    color:  rgba(85, 163, 3, 0.715);
+    text-decoration: underline;
+}
+
+
+
+footer{
+    background: rgb(40, 39, 39);
+    color: white;
+    margin-top: 1rem;
+}
+.footer{
+    width: 65%;
+    margin: 0 auto;
+}
+.footer-partitions{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+.footer img{
+    width: 4.5rem;
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 1rem 0;
+    width: 100vw;
+    background: black;
+    border-top: rgb(81, 79, 79) solid 0.1px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+.footer-partitions h2{
+    margin-bottom: 1rem;
+}
+.images img{
+    margin: 0 0.5rem 0.5rem 0;
+    height: 5rem;
+}
+.contact-us img{
+    float: left;
+    margin: 0 0.9rem 0.2rem 0;
+}
+.contact-info{
+    margin-top: 1rem;
+}
+.about-us.about-us:secondchild{
+    margin-bottom: 1rem;
+}
+.about-us span{
+    font-weight:bolder;
+}
+
+
+
